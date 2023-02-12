@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+}
+
+.logo_bar {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.logo_bar img {
+    height: 80%;
+    margin-top: 6px;
+    padding-left: 70px;
+}
+
+.cont_bar {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.cont_bar ul li {
+    float: left;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.cont_bar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.7;
+    font-family: 'Alegreya', serif;
+}
+
+.cont_bar ul li a:hover {
+    opacity: 1;
+}
+
+
+/* ------------------------------ 01 ------------------------------------------ */
+
+.paper01 {
+    width: 100%;
+    height: 250px;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin: 0px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-family: 'Alegreya', serif;
+    line-height: 3.86em;
+}
+
+.paper01 h1 {
+    font-size: 56px;
+    font-family: 'Alegreya Sans';
+    margin: 100px 0px 0px;
+}
+
+.paper01 p {
+    font-size: 18px;
+    font-family: 'Alegreya Sans';
+    color: #ffffff;
+    margin: 14px 0px 10px;
+}
+
+
+/* --------------------------- 02 --------------------------------------------- */
+
+.paper02 {
+    padding: 5%;
+    background-color: #ffffff;
+    height: 900px;
+    width: 90%;
+    float: left;
+}
+
+.item {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.box_02 {
+    width: 31.2%;
+    height: 100%;
+    margin-right: 2%;
+    float: left;
+}
+
+.box_02 h5 {
+    font-size: 18px;
+    font-family: alegreya;
+    color: #303030;
+    margin: 20px 0px 5px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+.box_02 h5 span {
+    float: right;
+    font-size: 18px;
+    font-family: alegreya;
+    color: #888888;
+}
+
+.box_02 p {
+    font-size: 17px;
+    font-family: "alegreya sans";
+    color: #686868;
+    line-height: 1.86em;
+    margin: 0px 0px 0px;
+}
+
+
+/* ------------------------------- Footer ------------------------------------------- */
+
+footer {
+    width: 100%;
+    height: 770px;
+    background-color: gray;
+    float: left;
+}
+
+.footer_up {
+    background-color: #403d38;
+    width: 90%;
+    padding: 5%;
+    height: 40%;
+}
+
+.box_footer {
+    width: 23%;
+    margin-left: 1.6%;
+    float: left;
+}
+
+.box_footer h4 {
+    font-size: 18px;
+    color: #ffff;
+    font-family: alegreya;
+    margin: 0px 0px 25px;
+}
+
+.box_footer p {
+    font-size: 16px;
+    color: #969696;
+    font-family: "alegreya sans";
+    margin: 0px 0px 20px;
+}
+
+.box_footer li {
+    list-style: none;
+    font-size: 16px;
+    font-family: "alegreya sans ";
+    color: #686868;
+    line-height: 1.90em;
+    margin: 0px 0px 6px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+.box_footer li img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 9px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+.box_footer li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "alegreya sans";
+    color: #a9a9a9;
+}
+
+.footer_bottom {
+    background-color: #353330;
+    width: 90%;
+    height: 25%;
+    padding: 5%;
+    text-align: center;
+    font-size: 15px;
+    font-family: "alegreya sans";
+    color: #777777;
+}
